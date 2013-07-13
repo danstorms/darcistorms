@@ -52,7 +52,7 @@ test:
 test:
   adapter: postgresql
   encoding: unicode
-  database: darcistorms_test
+  database: darcistorms_production
   pool: 5
   username: djdb
   password:

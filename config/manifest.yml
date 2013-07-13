@@ -1,0 +1,14 @@
+production:
+    rails: 
+        server: 
+            unique_name: darcistorms_frontend
+            extra_packages: 
+                - atop
+                - chrony
+    postgresql: 
+        server: 
+            unique_name: darcistorms_backend
+            extra_packages: 
+                - chrony
+        configuration:
+            version: 9.2.3
