@@ -48,3 +48,11 @@ test:
   database: darcistorms_test
   pool: 5
   password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: darcistorms_test
+  pool: 5
+  username: djdb
+  password:
